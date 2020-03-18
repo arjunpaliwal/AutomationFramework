@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30846" started-at="2020-03-03T10:48:54Z" finished-at="2020-03-03T10:49:24Z">
+  <suite name="Default suite" duration-ms="36340" started-at="2020-03-18T12:22:46 IST" finished-at="2020-03-18T12:23:22 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30846" started-at="2020-03-03T10:48:54Z" finished-at="2020-03-03T10:49:24Z">
+    <test name="Default test" duration-ms="36340" started-at="2020-03-18T12:22:46 IST" finished-at="2020-03-18T12:23:22 IST">
       <class name="com.qait.utility.BaseClass">
-        <test-method status="PASS" signature="baseMethod()[pri:0, instance:com.qait.utility.BaseClass@c7a4e4]" name="baseMethod" duration-ms="30836" started-at="2020-03-03T16:18:54Z" finished-at="2020-03-03T16:19:24Z">
+        <test-method status="PASS" signature="baseMethod()[pri:0, instance:com.qait.utility.BaseClass@69a10787]" name="baseMethod" duration-ms="36292" started-at="2020-03-18T12:22:46 IST" finished-at="2020-03-18T12:23:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseMethod -->

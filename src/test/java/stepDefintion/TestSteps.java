@@ -3,14 +3,13 @@ package stepDefintion;
 import org.openqa.selenium.WebDriver;
 
 import com.qait.actions.Board;
+import com.qait.actions.CloseBrowser;
 import com.qait.actions.DashBoard;
 import com.qait.actions.Home;
+import com.qait.actions.Initiator;
 import com.qait.actions.Leave;
 import com.qait.actions.Login;
 import com.qait.actions.Time;
-import com.qait.utility.CloseBrowser;
-import com.qait.utility.Initiator;
-
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

@@ -1,6 +1,5 @@
 package com.qait.actions;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

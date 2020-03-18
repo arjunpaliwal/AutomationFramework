@@ -17,7 +17,7 @@ public class Time {
 	@Test
 	public static void timeSheetOpen(WebDriver driver) {
 		SideNav.NavClick(driver);
-		driver.findElement(RepositoryParser.getbjectLocator("TimeSheet"));
+		driver.findElement(RepositoryParser.getbjectLocator("TimeSheet")).click();;
 		AssertJUnit.assertTrue(true);
 	}
 

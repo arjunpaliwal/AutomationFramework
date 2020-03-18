@@ -12,7 +12,7 @@ public class Login {
 	@Test
 	public static void enterUserNameAndPassword(WebDriver driver) throws Exception{
 		
-		String pwdorg = "Ayush!@#12";
+		String pwdorg = "****";
 		new stringToencryptionDecryption();
 		String en = stringToencryptionDecryption.encrypt(pwdorg);
 		String dn = stringToencryptionDecryption.decrypt(en);	

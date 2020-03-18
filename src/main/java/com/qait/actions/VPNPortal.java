@@ -8,7 +8,7 @@ public class VPNPortal {
 	public static void vpnLogin(WebDriver driver) {
 	
 		driver.findElement(By.id("username")).sendKeys("ayushigupta");
-		driver.findElement(By.id("credential")).sendKeys("Ayush!@#12");
+		driver.findElement(By.id("credential")).sendKeys(" **");
 		driver.findElement(By.id("login_button")).click();
 		driver.findElement(By.xpath("//*[@title='HTTP/HTTPS: HRIS (HRIS Portal)']")).click();
 				 

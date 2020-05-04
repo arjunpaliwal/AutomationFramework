@@ -22,9 +22,8 @@ public class Initiator {
 	}
 	
 @Test(dependsOnMethods = "openBrowser")
-public static WebDriver openURL(WebDriver driver){
-	 driver.get("https://vpn.qainfotech.com/remote/login?lang=en");
-	 VPNPortal.vpnLogin(driver);
+public static WebDriver openURL(WebDriver driver,String url){
+	 driver.get(url);
 	 return driver;
 	}
 	

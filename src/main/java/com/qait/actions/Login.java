@@ -10,9 +10,9 @@ import com.qait.utility.stringToencryptionDecryption;
 public class Login {
 	
 	@Test
-	public static void enterUserNameAndPassword(WebDriver driver) throws Exception{
+	public static void enterUserNameAndPassword(WebDriver driver, String username, String password) throws Exception{
 		
-		String pwdorg = "****";
+		String pwdorg = password;
 		new stringToencryptionDecryption();
 		String en = stringToencryptionDecryption.encrypt(pwdorg);
 		String dn = stringToencryptionDecryption.decrypt(en);	

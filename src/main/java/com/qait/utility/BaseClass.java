@@ -12,7 +12,6 @@ import com.qait.actions.Initiator;
 import com.qait.actions.Leave;
 import com.qait.actions.Login;
 import com.qait.actions.Time;
-import com.qait.actions.VPNPortal;
 
 @Test
 public class BaseClass {
@@ -22,10 +21,12 @@ public class BaseClass {
 	public void baseMethod() throws InterruptedException, Exception{
 		
 		driver = Initiator.openBrowser();
-		driver = Initiator.openURL(driver);
+		String url = "http://demo.com";
+		driver = Initiator.openURL(driver,url);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		Login.enterUserNameAndPassword(driver);
+		String username="ayushi";
+		String password= "***";
+		Login.enterUserNameAndPassword(driver,username,password);
 		Login.loginBtnClick(driver);
 		Home.verifyUserOnHomePage(driver);
 		Board.boardClick(driver);

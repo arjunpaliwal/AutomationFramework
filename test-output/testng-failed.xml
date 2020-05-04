@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qait.utility.BaseClass">
+      <class name="com.qait.utility.demo">
         <methods>
-          <include name="baseMethod"/>
+          <include name="launch_Url"/>
+          <include name="launch_Browser"/>
         </methods>
-      </class> <!-- com.qait.utility.BaseClass -->
+      </class> <!-- com.qait.utility.demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

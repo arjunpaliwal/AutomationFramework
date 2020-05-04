@@ -17,7 +17,9 @@ import cucumber.api.java.en.When;
 
 public class TestSteps {
     WebDriver driver;
-	
+    String username="ayushi";
+    String password = "***";
+	String url = "https://demo.com";
     @Given("^Open chrome browser$")
 	public void launch_Browser(){
 		driver = Initiator.openBrowser();
@@ -25,12 +27,12 @@ public class TestSteps {
     
 	@And("^Launch HRIS website$")
 	public void launch_HRIS(){
-		driver = Initiator.openURL(driver);
+		driver = Initiator.openURL(driver,url);
 	}
 	
 	@When("^Enter valid Username and Password$")
 	public void user_login() throws Exception{
-		Login.enterUserNameAndPassword(driver);
+		Login.enterUserNameAndPassword(driver,username,password);
 		
 	}
 	

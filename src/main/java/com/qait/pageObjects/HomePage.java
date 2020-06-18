@@ -11,7 +11,7 @@ public class HomePage {
 	static WebElement element;
 	public static void mainPage(WebDriver driver){
 		 RepositoryParser rp = new RepositoryParser();	
-		 Assert.assertEquals(driver.getTitle(), "QAIT Resource Management Tool");
+		 Assert.assertEquals(driver.getTitle(), "Resource Management Tool");
 //		 element = driver.findElement(RepositoryParser.getbjectLocator("HomeButton"));
 		
 	}
